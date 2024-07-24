@@ -87,16 +87,16 @@ namespace class_method_230724
 
             //step1 :create object of class triangle
 
-            Triangle t1=new Triangle();
-            //step2: set values to member variables base1 and height using 
-            //        method acceptBase_Height()
+            //Triangle t1=new Triangle();
+            ////step2: set values to member variables base1 and height using 
+            ////        method acceptBase_Height()
 
-            t1.acceptBase_Height();
+            //t1.acceptBase_Height();
 
-            //step 3: calculate area of rectangle by calling method showArea()
-            t1.showArea();
+            ////step 3: calculate area of rectangle by calling method showArea()
+            //t1.showArea();
             Console.ReadKey();
         }
     }
 }
-//methods of class can access member variables of class directly
+
