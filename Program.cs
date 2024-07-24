@@ -77,7 +77,7 @@ namespace class_method_230724
             //}
             #endregion
 
-
+            #region
             //class 
 
             //myClass mcObj1 = new myClass();
@@ -95,7 +95,25 @@ namespace class_method_230724
 
             ////step 3: calculate area of rectangle by calling method showArea()
             //t1.showArea();
+
+            #endregion
+            
+            int[] marks = new int[6];
+            Console.WriteLine("Enter 6 subject marks");
+            for (int i = 0; i < marks.Length; i++)
+            {
+                marks[i] = int.Parse(Console.ReadLine());
+            }
+
+            Student s1 = new Student();
+            System.AppDomain.
+            s1.setSubMarks(marks);//method calling
+            s1.calculatePer();
+            s1.checkGrades();
+
+
             Console.ReadKey();
+
         }
     }
 }
